@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FILES = ['README.md', 'LICENSE', 'NOTICE.md', 'CONTRIBUTING.md', 'SECURITY.md', 'Dockerfile', 'docker-entrypoint.sh', 'compose.yaml',
-         'railway.json', 'package.json', 'package-lock.json', 'requirements.txt', 'requirements-dev.txt',
+         'package.json', 'package-lock.json', 'requirements.txt', 'requirements-dev.txt',
          '.gitignore', '.dockerignore', '.env.example']
 FOLDERS = ['app', 'web', 'scripts', 'tests', 'docs', 'examples', '.github', 'brag-output']
 BLOCKED = {'.env', '.git', 'data', 'node_modules', '.venv', '__pycache__', '.pytest_cache', '.hyperframes', '.thumbnails', 'snapshots', 'brag.mp4', 'brag.jpg'}

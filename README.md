@@ -71,7 +71,7 @@ docker compose up --build -d
 
 The Compose file binds to localhost and persists `openvid-data`. Run one application process per data volume. HyperFrames uses two workers by default. Allow at least 2 CPUs and 4 GB RAM for rendering; larger videos need more memory and disk.
 
-For Railway or another Docker host, deploy this directory as a **separate service**, attach a persistent volume at `/data`, set `OPENVID_DATA_DIR=/data`, and set a strong `OPENVID_ACCESS_TOKEN`. The entrypoint uses the host’s `PORT` environment variable. Use HTTPS and your host’s request/storage limits. The included Railway file uses `/api/health`.
+For a Docker host, attach a persistent volume at `/data`, set `OPENVID_DATA_DIR=/data`, and set a strong `OPENVID_ACCESS_TOKEN`. The entrypoint uses the host’s `PORT` environment variable. Use HTTPS and your host’s request/storage limits. Configure health checks at `/api/health`.
 
 Wait for jobs to finish before restarting or redeploying. Generation and rendering workers are in-process. A stopped server marks unfinished jobs as interrupted on its next start and retains provider request IDs; it cannot resume an interrupted render automatically.
 
