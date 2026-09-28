@@ -1,0 +1,15 @@
+{
+  "name": "openvid",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open-source video presentations with bring-your-own AI providers",
+  "license": "AGPL-3.0-only",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "dev": ".venv/bin/uvicorn app.webapp:app --host 127.0.0.1 --port 7795",
+    "start": ".venv/bin/uvicorn app.webapp:app --host 0.0.0.0 --port 7795",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {"hyperframes": "0.8.77"}
+}

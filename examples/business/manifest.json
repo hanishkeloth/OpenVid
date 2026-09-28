@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "projects": [
+    {
+      "key": "press",
+      "name": "01 \u00b7 Aurelia \u2014 Press announcement",
+      "file": "press.json",
+      "duration": 40.69
+    },
+    {
+      "key": "launch",
+      "name": "02 \u00b7 Orbit \u2014 Product launch",
+      "file": "launch.json",
+      "duration": 39.65
+    },
+    {
+      "key": "results",
+      "name": "03 \u00b7 Northstar \u2014 Quarterly results",
+      "file": "results.json",
+      "duration": 42.0
+    },
+    {
+      "key": "sales",
+      "name": "04 \u00b7 Meridian \u2014 Sales presentation",
+      "file": "sales.json",
+      "duration": 40.8
+    },
+    {
+      "key": "customer",
+      "name": "05 \u00b7 Harbor \u2014 Customer success story",
+      "file": "customer.json",
+      "duration": 40.48
+    },
+    {
+      "key": "strategy",
+      "name": "06 \u00b7 Lumen \u2014 90-day team strategy",
+      "file": "strategy.json",
+      "duration": 43.629999999999995
+    }
+  ]
+}

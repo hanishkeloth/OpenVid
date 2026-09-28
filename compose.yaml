@@ -1,0 +1,17 @@
+services:
+  openvid:
+    build: .
+    ports:
+      - "127.0.0.1:7795:7795"
+    environment:
+      OPENVID_DATA_DIR: /data
+      OPENVID_ACCESS_TOKEN: ${OPENVID_ACCESS_TOKEN:-}
+      OPENVID_RENDER_WORKERS: 2
+    volumes:
+      - openvid-data:/data
+    shm_size: 1gb
+    init: true
+    stop_grace_period: 2h
+    restart: unless-stopped
+volumes:
+  openvid-data:

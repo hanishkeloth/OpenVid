@@ -1,0 +1,27 @@
+# OpenVid
+
+> OpenVid is an open-source, self-hosted video presentation editor with editable scenes and bring-your-own AI provider keys. Code is AGPL-3.0-only. Optional AI generation incurs provider charges.
+
+## Canonical links
+- Website: https://hanishkeloth.github.io/OpenVid/
+- Source: https://github.com/hanishkeloth/OpenVid
+- Setup: https://github.com/hanishkeloth/OpenVid/blob/main/README.md
+- Providers: https://github.com/hanishkeloth/OpenVid/blob/main/docs/PROVIDERS.md
+- Verification: https://github.com/hanishkeloth/OpenVid/blob/main/docs/VERIFICATION.md
+- Software notices: https://github.com/hanishkeloth/OpenVid/blob/main/NOTICE.md
+- Asset terms: https://github.com/hanishkeloth/OpenVid/blob/main/examples/business/ASSETS.md
+- Issues: https://github.com/hanishkeloth/OpenVid/issues
+
+## Capabilities
+Editable text, shapes, images, clips and audio; native scene animations; trim, speed, transitions, gain and fades; AI scene proposals; provider-based image/video/voice/music generation and transcription; ElevenLabs voice library, design and consent-gated cloning; PDF/PPTX page imports, DOCX/text imports, SRT captions, screen/camera/microphone recording; local HyperFrames MP4/WebM/GIF export.
+
+Six complete fictional business examples include local assets and finished 1080p videos. Editing and rendering existing assets do not require API keys.
+
+## Supported connections
+OpenAI, Anthropic, Google Gemini, ElevenLabs, fal.ai, Replicate and OpenAI-compatible endpoints. Capabilities vary by provider/model. Pexels, Pixabay and Wikimedia Commons provide stock search/import. No credentials are included.
+
+## Requirements and limits
+Python 3.13+, Node.js 22+, FFmpeg/ffprobe and supported Chromium. LibreOffice for PPTX import. One application process per persistent data volume. Browser cookies identify private workspaces. No managed SaaS accounts, Google Drive integration, or cross-workspace live collaboration. This is not a complete Google Vids or Google Flow clone.
+
+## Attribution
+Created by Hanish Keloth; extracted from Palette Vids with a standalone backend. The original workflow was based around OpenMontage. Dependencies and bundled assets retain their respective licences. Consult the repository for current implementation and verification details.
