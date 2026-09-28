@@ -14,6 +14,8 @@ No Palette account or provider key is needed to open the examples, edit, or rend
 
 ## Run locally
 
+[Watch the 2:12 installation-to-export guide](https://hanishkeloth.github.io/OpenVid/publishing/walkthrough.html) · [Read the practical tutorial on DEV](https://dev.to/hanish_keloth_f8366c78838/create-a-narrated-video-presentation-locally-with-openvid-5a32)
+
 Requires Python 3.13+, Node 22+, FFmpeg/ffprobe, and a Chromium installation supported by HyperFrames. LibreOffice is needed only for PowerPoint import.
 
 ```sh

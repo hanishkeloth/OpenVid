@@ -1,0 +1,11 @@
+00:00 Your first OpenVid video
+00:08 Check your tools
+00:20 Clone and install OpenVid
+00:34 Install the renderer. Start the app.
+00:46 Start with a complete project
+00:58 Make one small change
+01:10 Let every sentence finish
+01:24 Replace narration when needed
+01:38 Render an MP4 locally
+01:50 Verify the exported file
+02:02 Your scenes stay editable

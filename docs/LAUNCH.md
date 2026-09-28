@@ -7,6 +7,11 @@
 - [Show HN](https://news.ycombinator.com/item?id=49874012): submitted, then flagged. No reason was shown.
 - [r/opensource](https://www.reddit.com/r/opensource/comments/1ws63jz/openvid_an_agpl_video_presentation_editor_with/): submitted with Promotional flair, then removed by moderators. No reason was shown.
 - LinkedIn: draft only.
+- [DEV tutorial](https://dev.to/hanish_keloth_f8366c78838/create-a-narrated-video-presentation-locally-with-openvid-5a32): published under Hanish Keloth with AI disclosure. Covers installation, scene editing, narration timing, local export and troubleshooting.
+- AlternativeTo: submitted September 28; confirmed in the normal review queue. Google Vids was suggested as a related alternative. The listing is not public until approved; no priority-review payment was made.
+- [Product Hunt](https://www.producthunt.com/products/openvid-2?launch=openvid-5): draft saved with three gallery images, icon, source link, description, tags and maker comment. Not scheduled; the YouTube video is still pending.
+- YouTube: the 24-second launch video and 2:12 captioned installation-to-export guide are prepared. Upload paused at the dialog's terms acceptance, awaiting the account owner's confirmation. The guide is also available with a native player on the [project website](https://hanishkeloth.github.io/OpenVid/publishing/walkthrough.html).
+- OpenAlternative: not submitted. Its current form requires at least 10 GitHub stars and a custom domain; the repository had 0 stars and used its GitHub Pages address when checked. Copy is prepared in `publishing/listing-copy.md`.
 
 The website and README include the 24-second product tour. All six website examples have inline video players and separate download links.
 
