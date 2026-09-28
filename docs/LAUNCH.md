@@ -1,6 +1,16 @@
 # OpenVid launch copy
 
-Prepared announcements. This file does not imply publication.
+## Publication status — September 28, 2026
+
+- [X product video](https://x.com/hanishkeloth/status/2104443715662270622): published with a native video attachment.
+- [GitHub announcement](https://github.com/hanishkeloth/OpenVid/discussions/1): published with the product video.
+- [Show HN](https://news.ycombinator.com/item?id=49874012): submitted, then flagged. No reason was shown.
+- [r/opensource](https://www.reddit.com/r/opensource/comments/1ws63jz/openvid_an_agpl_video_presentation_editor_with/): submitted with Promotional flair, then removed by moderators. No reason was shown.
+- LinkedIn: draft only.
+
+The website and README include the 24-second product tour. All six website examples have inline video players and separate download links.
+
+The following copy is reference material; it is not a record of the exact submitted text.
 
 ## X
 
