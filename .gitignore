@@ -10,3 +10,8 @@ __pycache__/
 .DS_Store
 *.log
 dist/
+brag-output/brag.mp4
+brag-output/brag.jpg
+brag-output/composition/.hyperframes/
+brag-output/composition/snapshots/
+brag-output/composition/.thumbnails/

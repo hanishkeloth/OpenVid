@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "audio": "assets/music.m4a",
+  "beats": [
+    {
+      "time": 0.715,
+      "strength": 0.361
+    },
+    {
+      "time": 1.237,
+      "strength": 0.388
+    },
+    {
+      "time": 1.611,
+      "strength": 0.25
+    },
+    {
+      "time": 2.187,
+      "strength": 0.285
+    },
+    {
+      "time": 2.741,
+      "strength": 0.264
+    },
+    {
+      "time": 3.488,
+      "strength": 0.48
+    },
+    {
+      "time": 3.659,
+      "strength": 0.379
+    },
+    {
+      "time": 4.213,
+      "strength": 0.229
+    },
+    {
+      "time": 4.587,
+      "strength": 0.222
+    },
+    {
+      "time": 4.981,
+      "strength": 0.327
+    },
+    {
+      "time": 6.069,
+      "strength": 0.237
+    },
+    {
+      "time": 7.147,
+      "strength": 0.587
+    },
+    {
+      "time": 7.253,
+      "strength": 0.941
+    },
+    {
+      "time": 8.021,
+      "strength": 0.539
+    },
+    {
+      "time": 8.299,
+      "strength": 0.78
+    },
+    {
+      "time": 12.181,
+      "strength": 1
+    },
+    {
+      "time": 21.429,
+      "strength": 0.21
+    },
+    {
+      "time": 22.176,
+      "strength": 0.328
+    },
+    {
+      "time": 22.581,
+      "strength": 0.277
+    },
+    {
+      "time": 23.232,
+      "strength": 0.169
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 > OpenVid is an open-source, self-hosted video presentation editor with editable scenes and bring-your-own AI provider keys. Code is AGPL-3.0-only. Optional AI generation incurs provider charges.
 
 ## Canonical links
+- Product video: https://hanishkeloth.github.io/OpenVid/assets/openvid-product.mp4
 - Website: https://hanishkeloth.github.io/OpenVid/
 - Source: https://github.com/hanishkeloth/OpenVid
 - Setup: https://github.com/hanishkeloth/OpenVid/blob/main/README.md

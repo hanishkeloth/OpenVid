@@ -4,7 +4,11 @@ A standalone open-source video presentation editor with **bring-your-own AI prov
 
 [Website and video examples](https://hanishkeloth.github.io/OpenVid/) · [Contribute](CONTRIBUTING.md) · [Provider notes](docs/PROVIDERS.md)
 
-![An OpenVid press-announcement video with editable scenes](docs/assets/press.jpg)
+**Watch the 24-second product tour:** scene editing, animated charts, provider connections, and six examples to remix.
+
+https://github.com/user-attachments/assets/7f627c7f-2810-42ad-91e5-7ce7674cb8e1
+
+[Watch on the website](https://hanishkeloth.github.io/OpenVid/#product-video) · [Download MP4](https://hanishkeloth.github.io/OpenVid/assets/openvid-product.mp4) · [Video source and credits](brag-output/README.md)
 
 No Palette account or provider key is needed to open the examples, edit, or render existing assets. AI generation uses the accounts you connect.
 

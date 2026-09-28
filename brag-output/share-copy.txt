@@ -1,0 +1,1 @@
+OpenVid is an open-source video presentation editor with your own AI providers. Edit scenes, add voiceovers and music, and export locally—with six complete examples to remix. https://github.com/hanishkeloth/OpenVid

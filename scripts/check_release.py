@@ -9,8 +9,8 @@ ROOT = Path(__file__).resolve().parent.parent
 FILES = ['README.md', 'LICENSE', 'NOTICE.md', 'CONTRIBUTING.md', 'SECURITY.md', 'Dockerfile', 'docker-entrypoint.sh', 'compose.yaml',
          'railway.json', 'package.json', 'package-lock.json', 'requirements.txt', 'requirements-dev.txt',
          '.gitignore', '.dockerignore', '.env.example']
-FOLDERS = ['app', 'web', 'scripts', 'tests', 'docs', 'examples', '.github']
-BLOCKED = {'.env', '.git', 'data', 'node_modules', '.venv', '__pycache__', '.pytest_cache'}
+FOLDERS = ['app', 'web', 'scripts', 'tests', 'docs', 'examples', '.github', 'brag-output']
+BLOCKED = {'.env', '.git', 'data', 'node_modules', '.venv', '__pycache__', '.pytest_cache', '.hyperframes', '.thumbnails', 'snapshots', 'brag.mp4', 'brag.jpg'}
 
 
 def source_files():
@@ -30,7 +30,7 @@ def check():
             errors.append(f'Symlinks are not allowed in release: {path.relative_to(ROOT)}')
         if path.stat().st_size > 90_000_000:
             errors.append(f'File exceeds repository limit: {path.relative_to(ROOT)}')
-        if path.suffix in ('.py', '.js', '.json', '.md', '.txt', '.yaml', '.sh'):
+        if path.suffix in ('.py', '.js', '.json', '.md', '.txt', '.yaml', '.sh', '.html', '.css', '.mjs'):
             content = path.read_text()
             # Deliberately report paths only, never matched credential values.
             if re.search(r'(?:sk-proj-|sk-ant-api\d*-)[A-Za-z0-9_-]{20,}|AIza[A-Za-z0-9_-]{30,}|gh[pousr]_[A-Za-z0-9]{25,}|-----BEGIN (?:RSA |OPENSSH )?PRIVATE KEY-----', content):
