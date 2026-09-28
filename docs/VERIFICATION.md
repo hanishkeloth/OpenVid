@@ -6,6 +6,7 @@ Verified locally with OpenVid’s own Python environment and Node dependencies:
 - Five editor/compiler tests: text escaping, media trim/speed/gain/fades, scene boundaries, shared music, subtitle round trips, hidden layers and media-preserving scene splits.
 - All six example projects load from bundled local assets without API keys.
 - Brave: library, Connections, editable provider fields, sample editor and preview controls inspected.
+- Website example players: reproduced a cached-stylesheet crop (960px video inside a 370px card). Versioned stylesheet/script URLs force the player styles to refresh; bounded grid columns and video widths preserve the full 16:9 frame. All six cards fit at desktop and a 390px mobile viewport, with no horizontal overflow.
 - A complete 40.7-second press-announcement example rendered through the native Web Animations compiler to 1280×720, 30 fps MP4. FFmpeg decoded the entire output without errors. Representative frames were visually reviewed.
 - Actual OpenAI `gpt-4o-mini-tts` speech: completed, 6.048-second clip.
 - Actual Standard-tier fal `google/nano-banana-2-lite` image: completed and saved locally with its provider request ID.
